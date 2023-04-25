@@ -1,0 +1,17 @@
+{
+  "name": "printer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "print": "node ./print.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tillpos/xml-escpos-helper": "^0.2.7",
+    "express": "^4.18.2"
+  }
+}
